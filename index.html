@@ -2,44 +2,59 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
 
     <!-- Exrternal -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/output.css">
-    <link rel="stylesheet" href="app.js">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="stylesheet" href="app.js" />
 </head>
 
 <body>
-
     <main class="max-h-screen overflow-y-scroll snap snap-y snap-mandatory">
-        <div class="grid place-items-center h-screen p-10 mr-10 snap-always snap-start shrink-0">                
+        <div class="grid place-items-center h-screen p-10 mr-10 snap-always snap-start shrink-0">
             <div>
                 <h1 class="lg:text-9xl md:text-8xl text-5xl">Hello👋🏻</h1>
                 <p class="lg:text-5xl text-4xl my-4">My name's Anthony!</p>
-                <p class="lg:text-3xl md:text-3xl text-2xl mt-4">A passionate Computer Science🚀student eager to grow and learn along the way 💪🏻
-                    <br>Currently learning Angular.js / TypeScript / JS / php / React.js 🤯</p>
+                <p class="lg:text-3xl md:text-3xl text-2xl mt-4">
+                    A passionate Computer Science🚀student eager to grow and learn along
+                    the way 💪🏻 <br />Currently learning Angular.js / TypeScript / JS /
+                    php / React.js 🤯
+                </p>
             </div>
         </div>
 
-        <div class="grid place-items-center h-screen p-10 mr-10 snap-always snap-start shrink-0">                
-            <div>
-                <h1 class="lg:text-9xl text-6xl">Hello👋🏻</h1>
-                <p class="lg:text-5xl text-5xl my-4">My name's Anthony!</p>
-                <p class="lg:text-3xl text-2xl mt-4">A passionate Computer Science🚀student eager to grow and learn along the way 💪🏻
-                    <br>Currently learning Angular.js / TypeScript / JS / php / React.js 🤯</p>
+        <div class="grid place-items-center h-screen snap-always snap-end shrink-0 mx-10">
+            <div class="grid h-full w-full p-10 mr-5 snap-always snap-start shrink-0 bg-white bg-opacity-10 rounded-t-3xl m-5">
+                <div class="inline-grid lg:grid-cols-2 md:grid-cols-2 gap-10 mb-10">
+                    <span class="bg-white bg-opacity-30 p-10 rounded-xl hover:scale-105 transition-all hover:cursor-pointer">Box</span>
+                    <span class="bg-white bg-opacity-30 p-10 rounded-xl hover:scale-105 transition-all hover:cursor-pointer">Box</span>
+                </div>
+
+                <div class="inline-grid lg:grid-cols-4 md:grid-cols-2 gap-10 mb-10">
+                    <span class="bg-white bg-opacity-30 p-10 rounded-xl shrink-0 hover:scale-105 transition-all hover:cursor-pointer">Box</span>
+                    <span class="bg-white bg-opacity-30 p-10 rounded-xl shrink-0 hover:scale-105 transition-all hover:cursor-pointer">Box</span>
+                    <span class="bg-white bg-opacity-30 p-10 rounded-xl shrink-0 hover:scale-105 transition-all hover:cursor-pointer">Box</span>
+                    <span class="bg-white bg-opacity-30 p-10 rounded-xl shrink-0 hover:scale-105 transition-all hover:cursor-pointer">Box</span>
+                </div>
+
+                <div class="inline-grid lg:grid-cols-4 md:grid-cols-3 gap-10">
+                    <span class="bg-white bg-opacity-30 p-10 rounded-xl shrink-0 col-span-3 hover:scale-105 transition-all hover:cursor-pointer">Box</span>
+                    <span class="bg-white bg-opacity-30 p-10 rounded-xl shrink-0 col-span-1 hover:scale-105 transition-all hover:cursor-pointer">Box</span>
+                </div>
             </div>
         </div>
     </main>
 
-    <footer>
-    </footer>
+    <footer></footer>
 </body>
 
 </html>
