@@ -1,6 +1,6 @@
 var cons = document.getElementById("console");
 var button = document.getElementById("addAboutMe");
-var langs = new Array("Angular.js", "TypeScript", "JS", "php", "React.js", "🤯");
+var langs = new Array(".  Angular.js", ".  TypeScript", ".  JS", ".  php", ".  React.js", "🤯");
 var i = 0;
 button === null || button === void 0 ? void 0 : button.addEventListener('click', function handleClick(event) {
     var pg = document.createElement("p");

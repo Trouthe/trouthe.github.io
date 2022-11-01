@@ -1,6 +1,6 @@
 const cons = document.getElementById("console");
 const button = document.getElementById("addAboutMe");
-var langs = new Array ("Angular.js", "TypeScript", "JS", "php", "React.js", "🤯");
+var langs = new Array (".  Angular.js", ".  TypeScript", ".  JS", ".  php", ".  React.js", "🤯");
 var i = 0;
 
 button?.addEventListener('click', function handleClick (event) {
