@@ -1,14 +1,13 @@
 const cons = document.getElementById("console");
 const button = document.getElementById("addAboutMe");
-var langs = new Array (".  Angular.js", ".  TypeScript", ".  JS", ".  php", ".  React.js", "🤯");
+
+var langs = new Array ("--  Angular.js", "--  TypeScript", "--  JS", "--  php", "--  React.js", "🤯");
+
 var i = 0;
 
 button?.addEventListener('click', function handleClick (event) {
     const pg = document.createElement("p");
     const pg2 = document.createElement("p");
-
-    const test = document.createElement("p");
-    test.textContent = "TEST";
 
     pg.textContent = "A passionate Computer Science🚀student eager to grow and learn along the way 💪🏻";
     pg2.textContent = "Currently learning the following: ";
@@ -35,5 +34,4 @@ function languages () {
         i++;
         setTimeout(languages, 750);
     }
-
 }

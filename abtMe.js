@@ -1,12 +1,10 @@
 var cons = document.getElementById("console");
 var button = document.getElementById("addAboutMe");
-var langs = new Array(".  Angular.js", ".  TypeScript", ".  JS", ".  php", ".  React.js", "🤯");
+var langs = new Array("--  Angular.js", "--  TypeScript", "--  JS", "--  php", "--  React.js", "🤯");
 var i = 0;
 button === null || button === void 0 ? void 0 : button.addEventListener('click', function handleClick(event) {
     var pg = document.createElement("p");
     var pg2 = document.createElement("p");
-    var test = document.createElement("p");
-    test.textContent = "TEST";
     pg.textContent = "A passionate Computer Science🚀student eager to grow and learn along the way 💪🏻";
     pg2.textContent = "Currently learning the following: ";
     cons === null || cons === void 0 ? void 0 : cons.append(pg);
