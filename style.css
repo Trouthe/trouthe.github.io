@@ -2,12 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
 body {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    background: repeating-linear-gradient( -45deg, #101010, #101010 11.5px, #131316 11.5px, #131316 57.5px );
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  background: #101010;
 }
+
+.box:nth-child(1) {
+  background-image: url('assets/mesh-gradient.png');
+  background-size: 100% 200%;
+}
+.box:hover {background-size: 125% 245%}
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+::selection {
+    background-color: rgb(255 255 255 / 45%);
 }

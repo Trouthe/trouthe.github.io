@@ -12,13 +12,6 @@
 @import "tailwindcss/utilities";
 
 
-body {
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  background: #101010;
-}
-
-
 *,
 ::before,
 ::after {
