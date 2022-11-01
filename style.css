@@ -13,6 +13,10 @@ body {
   background: #101010;
 }
 
+span {
+    display: inline-block;
+}
+
 .box:nth-child(1) {
   background-image: url('assets/mesh-gradient.png');
   background-size: 100% 200%;
