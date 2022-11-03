@@ -12,10 +12,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 ::selection {
     background-color: rgb(255 255 255 / 45%);
 }
